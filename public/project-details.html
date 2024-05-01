@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- Favicon -->
+    <!-- <link href="img/favicon.ico" rel="icon"> -->
+
+    <title>Net Booster</title>
+    <meta name="robots" content="index, follow" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Net Booster" />
+    <meta property="og:description" content="" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .swiper {
+            width: 100%;
+            padding-top: 0px;
+            padding-bottom: 50px;
+        }
+        
+        .swiper-slide {
+            background-color: yellow;
+            overflow: hidden;
+            width: 336px;
+            height: 383px;
+            background: #ffffff;
+            opacity: 50%;
+            border-radius: 12px;
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-image: linear-gradient(135.27deg, #F5F2ED -8.06%, #F5F2ED 112.41%);
+        }
+        
+        .swiper-slide-active {
+            background-color: #F5F2ED;
+            opacity: 100%;
+            /* text-align: center; */
+        }
+        
+        .swiper-slide .slide-content {
+            background-color: white;
+            color: black;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 100%;
+            border-radius: 13.57px;
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            align-items: center;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+        }
+        
+        .swiper-slide-inactive {
+            background-color: black;
+            /* text-align: center; */
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .swiper {
+                padding-top: 12px;
+                padding-bottom: 17px;
+            }
+        }
+        /* background: linear-gradient(135.27deg, #F5F2ED -8.06%, #F5F2ED 112.41%); */
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="nav_bar about_nav_color">
+        <div class="nav_bar_section">
+            <div class="nav_logo">
+                <img src="assets/logo/net_booster_blue.svg" />
+                <p>NETBOOSTER LAB</p>
+            </div>
+            <div class="nav_links">
+                <a href="/">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Project</a>
+            </div>
+
+            <div class="hamburger_section">
+                <a href="contact.html" class="let_tlk">Let's Talk</a>
+                <div class="hamburger">
+                    <span class="bar bar_one bar_gen"></span>
+                    <span class="bar bar_two bar_gen"></span>
+                    <span class="bar bar_three bar_gen"></span>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="container about_nav_color">
+                <div class="navbar">
+                    <div class="nav-menu">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Project Details Header Start -->
+    <div class="details_header">
+        <p>Inboxlane</p>
+        <p>A Reputation boosting tool that increases your inbox reputation by engaging positively with your inbox. Helps you solve all your spam problems</p>
+        <div class=details_header_img>
+            <img src="assets/images/project_details.svg" />
+        </div>
+    </div>
+    <!-- Project Details Header End -->
+
+
+    <!-- Project details about Start -->
+    <div class="pda_container">
+        <p>About Inboxlane</p>
+        <p>It is common for your emails to end up in the spam folder, even if you have all the technical aspects sorted and no blacklists with a 10/10 score on tester platforms. With InboxLane, we provide everything you need to ensure that your emails are
+            delivered to the recipient's primary inbox. Our services are built on a strong reputation for reliability, trust, and quality. We deliver quality services to those who offer quality themselves. If you are a spammer, please do not expect a
+            long-term solution from InboxLane.</p>
+        <p></p>
+    </div>
+
+    <!-- Project Details about End -->
+
+    <!-- Our Project Container Header -->
+    <div class="opch_container">
+        <p>Words from some of our clients</p>
+        <div class="opch_item">
+            <div class="opch_item_users">
+                <div class="opch_item_img opch_item_img_one">
+                    <img src="assets/images/fags_user_one.svg" />
+                </div>
+                <div class="opch_item_img opch_item_img_two">
+                    <img src="assets/images/fags_user_one.svg" />
+                </div>
+                <div class="opch_item_img opch_item_img_three">
+                    <img src="assets/images/fags_user_one.svg" />
+                </div>
+                <div class="opch_item_img opch_item_img_four">
+                    <img src="assets/images/fags_user_one.svg" />
+                </div>
+            </div>
+            <p class="opch_item_text">5000+ ActiveUsers</p>
+        </div>
+    </div>
+
+    <!-- Our Project Container End -->
+
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-content">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+            <div class="swiper-slide">
+                <div class="swipper_image">
+                    <img src="assets/icons/quote.svg" />
+                </div>
+                <p class="swipper-text-one">I enjoy using Inboxlane. It is very nice, efficient and easy to use.</p>
+                <p class="swipper-text-two">Peter, Belgium</p>
+                <p class="swipper-text-three">on Inboxlane</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="swipper_button_container">
+        <button onclick="prev()" class="swiper-button">
+            <img src="assets/icons/angle-left.svg"/>
+        </button>
+        <button onclick="next()" class="swiper-button">
+            <img src="assets/icons/angle-right.svg"/>
+        </button>
+    </div>
+
+    <!-- Swipper End -->
+
+
+
+
+
+
+
+    <!-- Our Project Start -->
+    <div class="our_project_container">
+        <div class="our_project">
+            <p class="other">Other Works</p>
+            <div class="our_project_section_three">
+                <div class="our_project_section_three_item">
+                    <p>Inboxlane</p>
+                    <p>
+                        A Reputation boosting tool that increases your inbox reputation by engaging positively with your inbox.
+                    </p>
+                    <div class="proj_row">
+                        <a>Read Case Study</a>
+                        <a href="project-details.html">
+                            <p>View live project</p>
+                            <div>
+                                <img src="assets/icons/arrow_up.svg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_container">
+                        <img src="assets/images/project_one.svg" />
+                    </div>
+
+                </div>
+                <div class="our_project_section_three_item">
+                    <p>Inboxlane</p>
+                    <p>
+                        A Reputation boosting tool that increases your inbox reputation by engaging positively with your inbox.
+                    </p>
+                    <div class="proj_row">
+                        <a>Read Case Study</a>
+                        <a href="project-details.html">
+                            <p>View live project</p>
+                            <div>
+                                <img src="assets/icons/arrow_up.svg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_container">
+                        <img src="assets/images/project_one.svg" />
+                    </div>
+
+                </div>
+                <div class="our_project_section_three_item">
+                    <p>Inboxlane</p>
+                    <p>
+                        A Reputation boosting tool that increases your inbox reputation by engaging positively with your inbox.
+                    </p>
+                    <div class="proj_row">
+                        <a>Read Case Study</a>
+                        <a href="project-details.html">
+                            <p>View live project</p>
+                            <div>
+                                <img src="assets/icons/arrow_up.svg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_container">
+                        <img src="assets/images/project_one.svg" />
+                    </div>
+
+                </div>
+                <div class="our_project_section_three_item">
+                    <p>Inboxlane</p>
+                    <p>
+                        A Reputation boosting tool that increases your inbox reputation by engaging positively with your inbox.
+                    </p>
+                    <div class="proj_row">
+                        <a>Read Case Study</a>
+                        <a href="project-details.html">
+                            <p>View live project</p>
+                            <div>
+                                <img src="assets/icons/arrow_up.svg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_container">
+                        <img src="assets/images/project_one.svg" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Project End -->
+
+
+    <!-- Question Start -->
+    <div class="question_container">
+        <div class="empty_div"></div>
+
+        <div class="question_comment">
+            <p>Disclaimer: the content of this web site is not to be intended as investment advice. The material is provided for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation or endorsement
+                for any of our SAAS platform, nor does it constitute an offer to provide investment advisory or other services by NetboosterLab. NetboosterLab makes no guarantees regarding the accuracy and completeness of the information expressed in
+                this web site. </p>
+            <div>
+                <p>Netbooster Lab</p>
+                <p>Netbooster Lab Copyright 2024</p>
+            </div>
+        </div>
+    </div>
+    <!-- Question End -->
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            freeMode: true,
+            freeModeSticky: false,
+            watchSlidesProgress: true,
+            watchSlidesVisibility: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true
+        });
+
+        function next() {
+            swiper.slideNext();
+        }
+
+        function prev() {
+            swiper.slidePrev();
+        }
+    </script>
+</body>
+
+</html>
