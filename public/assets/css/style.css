@@ -684,7 +684,13 @@ body {
     margin: 10px 0px 0px 0px;
 }
 
-.question_img div button {
+.question_img div a {
+    text-decoration: none;
+    color: var(--custom-fifteen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
     font-family: 'Satoshi-Medium';
     border-radius: 32px;
     border: none;
@@ -1509,7 +1515,7 @@ textarea {
         font-size: 14px;
         line-height: 16.8px;
     }
-    .question_img div button {
+    .question_img div a {
         width: 119px;
         height: 41px;
         font-size: 14px;
